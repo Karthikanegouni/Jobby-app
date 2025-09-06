@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+    background-color: #000000;
+  color: #f1f5f0;
+}
+
+.custom-btn {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.8em 2em;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #4f46e5;
+  color: #f8fafc;
+  cursor: pointer;
+}

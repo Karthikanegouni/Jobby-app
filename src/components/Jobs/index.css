@@ -1,0 +1,142 @@
+.jobs-page-wrapper {
+  padding: 2em 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  width: 90%;
+  margin: auto;
+}
+
+.search-cnt-sm,
+.search-cnt-lg {
+  width: 100%;
+  display: flex;
+  border-radius: 5px;
+  border: 1px solid #b6c5ff;
+  margin: auto;
+  padding: 1px;
+}
+
+.search-cnt-sm > input,
+.search-cnt-lg > input {
+  background-color: #000000;
+  color: #f1f5f9;
+  flex-grow: 1;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  padding: 0em 0.5em 0em 1em;
+}
+
+.search-jobs-btn {
+  padding: 1em;
+  background-color: #272727;
+  color: #f1f5f9;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+hr {
+  margin: 1.5em 0em;
+  border: 1px solid #b6c5ff;
+}
+
+.list-item-cnt {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.job-list-items-cnt {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.search-cnt-lg {
+  display: none;
+}
+
+.no-jobs-found,
+.job-failure-view,
+.loader-cnt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 30vh;
+  text-align: center;
+}
+
+.no-jobs-found > p,
+h1 {
+  margin: 0;
+  line-height: 2;
+}
+
+.job-failure-view > p,
+h1 {
+  line-height: 1;
+  margin-top: 10px;
+}
+
+.job-failure-view > h1 {
+  font-size: 1.5rem;
+}
+
+.no-jobs-found > img,
+.job-failure-view > img {
+  width: 100%;
+  max-width: 500px;
+}
+
+@media screen and (min-width: 768px) {
+  .search-cnt-sm {
+    display: none;
+  }
+
+  .search-cnt-lg {
+    display: flex;
+    width: 80%;
+    margin-left: 0;
+    border: 2px solid #b6c5ff;
+  }
+
+  .search-cnt-lg > input {
+    font-size: 1.3rem;
+  }
+
+  .jobs-page-wrapper {
+    flex-direction: row;
+    gap: 2em;
+  }
+
+  .left-cnt {
+    min-width: 20%;
+  }
+
+  .right-cnt {
+    width: 100%;
+  }
+
+  .no-jobs-found,
+  .job-failure-view,
+  .loader-cnt {
+    min-height: 70vh;
+  }
+
+  .job-failure-view > p,
+  h1 {
+    line-height: 2;
+    margin-top: 10px;
+  }
+
+  .job-failure-view > h1 {
+    font-size: 2rem;
+  }
+}

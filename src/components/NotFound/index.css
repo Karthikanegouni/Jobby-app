@@ -1,0 +1,37 @@
+.not-found-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  text-align: center;
+}
+
+.not-found-img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.not-found-title {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.not-found-description {
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 576px) {
+  .not-found-img {
+    max-width: 500px;
+  }
+
+  .not-found-title {
+    font-size: 2rem;
+  }
+
+  .not-found-description {
+    font-size: 1.3rem;
+  }
+}
