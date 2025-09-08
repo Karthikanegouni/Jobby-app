@@ -4,7 +4,18 @@ A React app for searching and exploring jobs with filters, authentication, and d
 
 ## Live Demo
 
-- ### [Live Link](https://jobbyak.ccbp.tech/)
+- ### [Live Link](https://jobbyak.ccbp.tech/) (ccbp)
+- ### [Netlify](https://jobbyappkarthik.netlify.app) (hosted at Netlify)
+
+- #### Demo Credentials:
+
+  ```bash
+  username: rahul
+  password: rahul@2021
+
+  username: raja
+  password: raja@2021
+  ```
 
 ## Features
 
