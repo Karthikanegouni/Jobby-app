@@ -4,6 +4,7 @@ A React app for searching and exploring jobs with filters, authentication, and d
 
 ## Live Demo
 
+- ### [Jobby APP LIVE](https://jobbyappkarthik.netlify.app/)   (hosted on Netlify)
 - ### [Live Link](https://jobbyak.ccbp.tech/) (ccbp)
 
 - #### Demo Credentials:
